@@ -189,10 +189,10 @@ a:hover{text-decoration:none}
     width:40%;
     text-align:center;
     margin:auto;
-    background:whitesmoke;
+    background:rgba(255,255,255,.7);
     font-family:Work Sans,sans-serif}
 
-.doc-container-display{width:500px;margin:0 auto;height:400px;border:1px solid #fff;overflow:scroll;padding:30px}
+.doc-container-display{width:500px;margin:0 auto;height:400px;border:1px solid #fff;overflow:scroll;padding:30px;background-color:rgba(255,255,255,.7)}
 
 .doc-display{width:500px;border:1px solid #fff;padding:10px}
 
@@ -206,7 +206,9 @@ a:hover{text-decoration:none}
 
 .typed-text{margin:40px}.typewrite{font-size:48px}
 
-.logo-dashboard{ width:250px}
+.logo-dashboard{ 
+    margin:20px;
+    width:250px}
 
 .btn-dashboard{font-family:National2\, Helvetica Neue;font-size:20px;font-weight:700;width:200px;margin-right:30px;border:2px solid red}*{color:#fff;text-decoration:none}
 
