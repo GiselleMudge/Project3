@@ -20,15 +20,15 @@ class Donate extends Component {
               <Image src={image2} className="donate-image"/>
               <Card.Content>
                 <Card.Header>
-                  Help cancer research
+                  Mental Health Research
                 </Card.Header>
                 <Card.Meta>
                   <span className='date'>
-                    Saving lives through research
+                    Because one day, it might help you or someone you love
                   </span>
                 </Card.Meta>
                 <Card.Description>
-                   Time is running short, do your bit to find a cure for cancer.
+                   Donate today!
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
@@ -49,15 +49,15 @@ class Donate extends Component {
               <Image src={image3} className="donate-image" />
               <Card.Content>
                 <Card.Header>
-                  Help Pediatric cancer research
+                  Know what it's like to have a ruff day? 
                 </Card.Header>
                 <Card.Meta>
                   <span className='date'>
-                    Saving lives through research
+                    There are more who can relate and need your help
                   </span>
                 </Card.Meta>
                 <Card.Description>
-                   Time is running short, do your bit to find a cure for cancer.
+                   Donate today!
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
@@ -78,15 +78,15 @@ class Donate extends Component {
               <Image src={image1} className="donate-image"/>
               <Card.Content>
                 <Card.Header>
-                   Help a cancer patient for a ride
+                   Feeling #blessed?
                 </Card.Header>
                 <Card.Meta>
                   <span className='date'>
-                     $10 = 1 ride to and from treatment for a cancer patient.
+                    Help spread the sunshine.
                   </span>
                 </Card.Meta>
                 <Card.Description>
-                   Cancer patients cite transportation to and from medical treatment as a critical need.
+                  Donate today!
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
