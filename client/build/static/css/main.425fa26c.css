@@ -3,6 +3,7 @@ body{
     background-position: center;
     background: url(/static/media/background.png);
     background-size: cover;
+    background-repeat: no-repeat;
     font-family:National2\,Helvetica Neue}
     
 h1 {color:rgb(248, 6, 6)} 

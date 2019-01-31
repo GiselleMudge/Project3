@@ -4,7 +4,7 @@ var router = express.Router();
 var axios = require('axios');
 var Doctor = require("../../../models/Doctor");
 
-let apiKey = 'fbc02dea436e8732f548483ce4e0c7ef';
+let apiKey = '203e64c3819891bfe74d77e9397a7f7c';
 let googleAPIKey= 'AIzaSyDOHt8WJPCxUTykGJPREk1gqNDcfrq--k8';
 
 router.post('/doctors', function(req, res) {
@@ -21,7 +21,7 @@ router.post('/doctors', function(req, res) {
         let latLong = response.data.results[0].geometry.location;
 
         var docURL = 
-        "https://api.betterdoctor.com/2016-03-01/doctors?query=oncology" + 
+        "https://api.betterdoctor.com/2016-03-01/doctors?query=psychotherapist" + 
         "&location=" + response.data.results[0].geometry.location.lat + encodeURIComponent(",") + response.data.results[0].geometry.location.lng + encodeURIComponent(",") + 10 +
         "&skip=0&limit=20&user_key=" + apiKey +
         "&user_location=" + response.data.results[0].geometry.location.lat + encodeURIComponent(",")+ response.data.results[0].geometry.location.lng;
