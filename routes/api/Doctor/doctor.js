@@ -21,7 +21,7 @@ router.post('/doctors', function(req, res) {
         let latLong = response.data.results[0].geometry.location;
 
         var docURL = 
-        "https://api.betterdoctor.com/2016-03-01/doctors?query=psychotherapist" + 
+        "https://api.betterdoctor.com/2016-03-01/doctors?query=psychiatrist" + 
         "&location=" + response.data.results[0].geometry.location.lat + encodeURIComponent(",") + response.data.results[0].geometry.location.lng + encodeURIComponent(",") + 10 +
         "&skip=0&limit=20&user_key=" + apiKey +
         "&user_location=" + response.data.results[0].geometry.location.lat + encodeURIComponent(",")+ response.data.results[0].geometry.location.lng;
