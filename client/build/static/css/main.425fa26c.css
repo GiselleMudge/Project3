@@ -8,12 +8,11 @@ body{
     position: absolute;
     background: url(/static/media/background.png);
     background-size: cover;
-    background-position: 85%;
 }
-
-h3 {color:rgb(2, 105, 25)}  
+h1 {color:rgb(248, 6, 6)} 
+h3 {color:rgb(248, 6, 6)}  
 h2 {color:#069}
-h3 {color:rgb(2, 105, 25)}    
+h3 {color:rgb(248, 6, 6)}    
         
 .form-signin .form-signin-heading{
     margin-bottom:10px;
@@ -137,7 +136,7 @@ a:hover{text-decoration:none}
     box-shadow:0 2px 35px 0 #d4d7dc}
 
 .div-links{
-    width:700px;
+    width:70%;
     margin:30px auto;
     text-align:center}
     
@@ -185,7 +184,13 @@ a:hover{text-decoration:none}
 
 .doc-div{border:1px solid #fff;font-size:16px}
 
-.ui.segment.welcomeBox{height:auto;width:40%;text-align:center;margin:auto;background:transparent;font-family:Work Sans,sans-serif}
+.ui.segment.welcomeBox{
+    height:auto;
+    width:40%;
+    text-align:center;
+    margin:auto;
+    background:whitesmoke;
+    font-family:Work Sans,sans-serif}
 
 .doc-container-display{width:500px;margin:0 auto;height:400px;border:1px solid #fff;overflow:scroll;padding:30px}
 
