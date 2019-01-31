@@ -9,9 +9,7 @@ import NavBar from '../NavBar';
 class News extends Component {
 
   state ={
-    "newsNCI" : [],
-    "newsWHO" : [],
-    "newsCRUK": []
+    "newsWHO" : []
   }
 
   componentDidMount(){
