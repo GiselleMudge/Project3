@@ -1,49 +1,31 @@
 
 # RU OK
-Mental health app to check in and track your sentiments daily. Identify those times when you're consistently feeling down and do something about it. Resources are available to vent and seek help during the darkest of times. Be heard. Feel better.
+A mental health space to seek counselors and chat with others. Did you know that heavy device usage is part of the reason why you are feeling down? Use your device to take care of yourself. Resources both casual and professional are available to vent and seek help during the darkest of times. Be heard. Feel better.
 
 # TEAM
-Solomon
-Giselle
+*   Solomon - https://github.com/sguhl1 
+*   Giselle - https://github.com/GiselleMudge
 
 Dr. FeelGood Inc.'s mission is to provide an easy to access starting point for mindfulness. We lay out some simple tools for staying on track in that tunnel called life, and gently steering towards that light at the end of it.
 
 # TECH
-
-
-## Starting the app locally
-
-Start by installing front and backend dependencies. While in this directory, run the following commands:
-
-```
-yarn install
-cd client
-yarn install
-cd ..
-``
-
-After both installations complete, run the following command in your terminal:
-
-```
-yarn start
-```
-
-That's it, your app should be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+*   axios
+*   bcrypt - NEW! Password hashing for extra security
+*   betterdoctor API - Queries from list of doctors, in our case under keyword "psychiatrist". *Issue- API works sporadically, in progress*
+*   cheerio
+*   express
+*   material-ui - NEW! For using Google material design
+*   MongoDB
+*   mongoose
+*   morgan - Logs all calls
+*   passport - Login credentials
+*   react
+*   service worker - caching for offline speed. In Progress
+*   socket.io - NEW! Enables chat function
+*   Stripe - NEW! Enables users to send payments through your website
+*   Web scraping - Mental Health news from www.who.org *In Progress*
 
 ## Deployment (Heroku)
+Check us out on https://ru-ok.herokuapp.com/ !
 
-After confirming that you have an up to date git repository and a Heroku app created, complete the following:
-
-1. Build the React app for production by running the following command:
-
-```
-yarn build
-```
-> Note: A yarn build will be required to register any new Post requests from any front-end JavaScript to to prevent any proxy server errors.
-
-2. Add and commit all changes to git
-
-3. Push to Heroku
-
-If all previous steps were followed correctly, your application should be deployed to Heroku!
 
