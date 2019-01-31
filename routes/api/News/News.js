@@ -6,14 +6,14 @@ var cheerio = require('cheerio');
 
  router.get('/who', function(req, res) {
 
-        axios.get('https://www.who.int/mental_health/publications/en/')
+        axios.get('https://www.who.int/mental_health/publications/disorders_prevention_promotion/en/')
         .then(function(response, html){
             var $ = cheerio.load(response.data);
             // console.log(response.data)
             var result = [];
 
 
-        $('ul.list_dash > li').each(function(i, element) {
+        $('ul.list > li').each(function(i, element) {
                 var link = $(element).find('a').attr('href');
                 var title = $(element).find('a').text();
                 // console.log(link);
