@@ -28,14 +28,14 @@ class Dashboard extends Component {
 					label="Log In" 
 					className="btn-dashboard" 
 					href="/login"
-					backgroundColor="#fffacd"
+					backgroundColor="#f8f805"
 					labelColor="#000"
 				/>
 				<RaisedButton 
 					label="Sign up" 
 					className="btn-dashboard" 
 					href="/register"
-					backgroundColor="#fffacd"
+					backgroundColor="#f8f805"
 					labelColor="#000"
 				/>
 			</div>  		 
