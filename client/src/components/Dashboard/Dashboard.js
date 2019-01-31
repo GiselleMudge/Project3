@@ -15,7 +15,7 @@ class Dashboard extends Component {
 					  <a href="" className="typewrite" data-period="1000" 
 					  data-type=
 					  '[ 
-					  	"RU OK",
+					  	"RU OK?",
 					  	"Search for Counselors", 
 					  	"Chat with others",
 					  	"Ask questions",
@@ -23,7 +23,6 @@ class Dashboard extends Component {
 					  	"Find latest wellness related news!"
 					   ]'>
 					    <span className="wrap"></span>
-					  </a>
 				</div>
 				<RaisedButton 
 					label="Log In" 

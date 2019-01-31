@@ -13,7 +13,7 @@ var cheerio = require('cheerio');
             var result = [];
 
 
-        $('ul.auto_archive > li').each(function(i, element) {
+        $('ul.list_dash > li').each(function(i, element) {
                 var link = $(element).find('a').attr('href');
                 var title = $(element).find('a').text();
                 // console.log(link);

@@ -1,7 +1,7 @@
 
 .dashboard-page{
 	text-align: center;
-  	color:#fff;
+  	color:yellow;
   	text-decoration: none;
   	font-family: "National2, Helvetica Neue";
   	font-size: 30px;
@@ -30,4 +30,4 @@
 	border: 2px solid red;
 	/*border-radius: 25px;*/
 }
-* { color:#fff; text-decoration: none;}
+* { color:yellow; text-decoration: none;}
